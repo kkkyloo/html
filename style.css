@@ -3,10 +3,9 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 14px;
     line-height: 100%;
-    color: #444444;
   }
 
-.flex {
+.verx {
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -20,12 +19,12 @@ body {
   color: #ffffff;
 }
 
-h1 {
+.zag {
   position: absolute; 
   left: 80px;
   color: #000000;
   font-size: 30px;
-  bottom: 80%;
+  bottom: 78%;
 }
 
 .imgs {
@@ -46,7 +45,7 @@ h1 {
 .opis2 {
   position: absolute; 
   left: 35%;
-  bottom: 59%;
+  bottom: 60%;
   font-size: 15px;
   color: #000000;
   line-height: 90%;
@@ -54,7 +53,7 @@ h1 {
 .Spec1 {
   position: absolute; 
   left: 35%;
-  bottom: 53%;
+  bottom: 54%;
   font-size: 18px;
   color: #000000;
 }
@@ -62,8 +61,16 @@ h1 {
 .Spec2 {
   position: absolute; 
   left: 33%;
-  bottom: 27%;
+  bottom: 18%;
   font-size: 15px;
   color: #000000;
   line-height: 150%;
+}
+
+footer {  
+  position: absolute; 
+  bottom: 1%;
+  width: 1660px;
+  border-top: 1px solid #000000; 
+  text-align: center;
 }
